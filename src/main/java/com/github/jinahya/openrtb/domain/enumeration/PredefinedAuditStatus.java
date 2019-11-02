@@ -1,24 +1,22 @@
-package com.github.jinahya.openrtb.domain;
+package com.github.jinahya.openrtb.domain.enumeration;
 
-public enum PredefinedApiFramework implements ApiFrameworkCode {
-
-    // -----------------------------------------------------------------------------------------------------------------
-    VPAID_1_0(1),
-
-    VPAID_2_0(2),
-
-    MRAID_1_0(3),
-
-    ORMMA(4),
-
-    MRAID_2_0(5),
-
-    MRAIN_3_0(6),
-
-    OMID_1_0(7);
+public enum PredefinedAuditStatus implements AuditStatusCode {
 
     // -----------------------------------------------------------------------------------------------------------------
-    PredefinedApiFramework(final int code) {
+    PENDING_AUDIT(1),
+
+    PRE_APPROVED(2),
+
+    APPROVED(3),
+
+    DINIED(4),
+
+    CHANGED(5),
+
+    EXPIRED(6);
+
+    // -----------------------------------------------------------------------------------------------------------------
+    PredefinedAuditStatus(final int code) {
         this.code = code;
     }
 

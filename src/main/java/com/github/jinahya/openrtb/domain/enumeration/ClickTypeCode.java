@@ -1,6 +1,6 @@
-package com.github.jinahya.openrtb.domain;
+package com.github.jinahya.openrtb.domain.enumeration;
 
-public interface ApiFrameworkCode extends EnumCode {
+public interface ClickTypeCode extends CodeEnum {
 
     // -----------------------------------------------------------------------------------------------------------------
     int MIN_VENDOR_SPECIFIC_CODE = 500;

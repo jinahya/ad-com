@@ -1,4 +1,4 @@
-package com.github.jinahya.openrtb.domain;
+package com.github.jinahya.openrtb.domain.enumeration;
 
 public enum PredefinedClickType implements ClickTypeCode {
 

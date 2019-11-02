@@ -1,22 +1,16 @@
-package com.github.jinahya.openrtb.domain;
+package com.github.jinahya.openrtb.domain.enumeration;
 
-public enum PredefinedAuditStatus implements AuditStatusCode {
-
-    // -----------------------------------------------------------------------------------------------------------------
-    PENDING_AUDIT(1),
-
-    PRE_APPROVED(2),
-
-    APPROVED(3),
-
-    DINIED(4),
-
-    CHANGED(5),
-
-    EXPIRED(6);
+public enum PredefinedCategoryTaxonomy implements CategoryTaxonomyCode {
 
     // -----------------------------------------------------------------------------------------------------------------
-    PredefinedAuditStatus(final int code) {
+    IAB_CONTENT_CATEGORY_TAXONOMY_1_0(1),
+
+    IAB_CONTENT_CATEGORY_TAXONOMY_2_0(2),
+
+    IAB_AD_PRODUCT_TAXONOMY_1_0(3);
+
+    // -----------------------------------------------------------------------------------------------------------------
+    PredefinedCategoryTaxonomy(final int code) {
         this.code = code;
     }
 
